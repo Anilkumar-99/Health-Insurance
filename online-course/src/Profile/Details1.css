@@ -1,0 +1,297 @@
+.body1{
+  background: rgb(251, 218, 223);
+}
+.circle 
+{
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  border: 4px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin-left: 140px;
+  margin-top: 10px;
+}
+.name{
+  margin-left: 150px;
+  margin-top: 10px;
+  font-weight: bolder;
+}
+.ui{
+  margin-left: 150px;
+  margin-top: 8px;
+  font-weight: bold;
+  color: red;
+}
+.paragraph{
+  margin-left: 13px;
+  margin-top: 10px;
+}
+.details{
+    margin-left: 15px;
+    padding-top: 15px;
+    font-weight: bolder;
+  }
+.card {
+  width: 1450px;
+  height: 700px;
+  margin-left: 40px;
+  margin-top: 20px;
+  border-radius:20px;
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  .box1 {
+    width: 500px;
+    height: 650px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: rgb(205, 183, 249);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  .box2 {
+    width: 450px;
+    height: 275px;
+    margin-left: 20px;
+    margin-top: 25px;
+    border-radius: 10px;
+    background: rgb(168, 126, 252);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  .box3 {
+    width: 380px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 1px;
+    margin-top: 32px;
+    background: rgb(205, 183, 249);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  .box4 {
+    width: 380px;
+    height: 216px;
+    border-radius: 10px;
+    margin-top:-5px;
+    background: rgb(205, 183, 249);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+.c4{
+    font-weight: bolder;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+  .box5 {
+    width: 460px;
+    height: 450px;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 19px;
+    margin-left: 25px;
+    background: rgb(205, 183, 249);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+
+  .box6 {
+    width: 460px;
+    height: 180px;
+    border-radius: 10px;
+    margin-top: 120px;
+    background: rgb(205, 183, 249);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+
+  .box7 {
+    width: 380px;
+    height: 200px;
+    margin-left: 28px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    background: rgb(205, 183, 249);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+
+.c7p{
+  margin-left: 10px;
+  margin-top: 10px;
+  font-weight: 350;
+  color: black;
+}
+
+.c6{
+ font-weight: bold;
+ margin-left: 20px;
+ padding-top: 20px;
+}
+.pr{
+margin-left:110px;
+margin-top: 15px;
+font-weight: bold;
+}
+.youtube{
+  margin-left: 115px;
+  margin-top: -95px;
+  font-weight: bold;
+}
+
+.rating:not(:checked) > input {
+  position: absolute;
+  appearance: none;
+}
+
+.rating:not(:checked) > label {
+  float: right;
+  cursor: pointer;
+  font-size: 30px;
+  color: #666;
+}
+
+.rating:not(:checked) > label:before {
+  content: "★";
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+  color: #e58e09;
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+  color: #ff9e0b;
+}
+
+.rating > input:checked ~ label {
+  color: #ffa723;
+}
+.star{
+  margin-top: 1px;
+  margin-right: 132px;
+}
+.f{
+  margin-left: 120px;
+  margin-top: 60px;
+  font-weight: bolder;
+}
+
+.cir-container {
+  position: absolute;
+  top: 30%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px; 
+}
+#cir1 {
+  width: 100px; 
+  height: 100px; 
+  border-radius: 50%;
+  /* background-color: rgb(243, 243, 99); */
+  margin-bottom: 130px; 
+}
+
+#cir2 {
+  width: 100px; 
+  height: 100px; 
+  border-radius: 50%;
+  /* background-color: rgb(243, 243, 99); */
+  margin-bottom: 130px; 
+}
+
+.line {
+  position: absolute;
+  margin-left: 130px;
+  width: 30%;
+  height: 2px;
+  background-color: black; 
+  top: calc(40% - 2px - 40px); 
+}
+
+
+.tcs{
+  width:100px; 
+  height: 100px;
+  border-radius: 50px;
+  margin-left: 30px;
+}
+.hcl{
+  width:100px; 
+  height: 100px;
+  border-radius: 50px;
+  margin-left: -50px;
+}
+.tm{
+  width:100px; 
+  height: 100px;
+  border-radius: 50px;
+  margin-top:250px;
+  margin-left: 45px;
+}
+.wip{
+  width:100px; 
+  height: 100px;
+  border-radius: 50px;
+  margin-left: 120px;
+  margin-top: 248px;
+}
+
+.line1 {
+  position: absolute;
+  margin-left: 145px;
+  width: 26%;
+  height: 2px;
+  background-color: black; 
+  top: calc(40% - 2px - -120px); 
+}
+
+.tr{
+  color: red;
+  font-weight: bolder;
+}
+
+#experience-years1 {
+  position: absolute;
+  bottom: 10px; /* Adjust as needed */
+  left: 48%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding-right: 250px;
+  font-weight: bold;
+}
+
+#experience-years2 {
+  position: absolute;
+  bottom: 10px; /* Adjust as needed */
+  left: 43%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding-left: 250px;
+  font-weight: bold;
+}
+
+#experience-years3 {
+  position: absolute;
+  bottom: 235px; /* Adjust as needed */
+  left: 48%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding-right: 250px;
+  font-weight: bold;
+}
+
+#experience-years4 {
+  position: absolute;
+  bottom: 235px; /* Adjust as needed */
+  left: 43%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding-left: 250px;
+  font-weight: bold;
+}

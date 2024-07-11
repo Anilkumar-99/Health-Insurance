@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.navbar
+{
+    background-color: #e3f2fd;
+}
+
+.img-logo
+{
+   width: 100px;
+   height: 30px;
+   margin-left: 20px;
+}
+#search{
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+     font-style:normal ;
+    font-size: small;
+}
+
+#icon
+{
+    height: 40px;
+    width: 40px;
+}
+#log{
+    font-weight: bold;
+    margin-left: 80px;
+}
+#wishlist
+{
+    font-weight: bold;
+    margin-left: 20px;
+}
+#tracker
+{
+    font-weight: bold;
+    margin-left: 10px;
+}
+#cart
+{
+    margin-right: 20px;
+    padding: 5px;
+    font-weight: bold;
+    width: 80px;
+    height: 38px;
+    margin-bottom: 20px;
+}
